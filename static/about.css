@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color:#30589b;
+    display:flex;
+    width: 100%;
+}
+
+            /* left box  */
+
+.left{
+    display: flex;
+    padding: 3px;
+    color: white;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+    margin-left: 8px;
+    filter: invert(100%);
+}
+.left div{
+    font-size: 19px;
+    padding: 17px 4px;
+}
+
+             /* mid box */
+.mid {
+    display: flex;
+    margin: 0px auto;
+    padding: 19px;
+}
+.mid li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.mid li a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 17px;
+}
+
+            /* right box */
+.right {
+    /* position: absolute; */
+    right: 0px;
+    top: 0px;
+    display:flex;
+    margin: 13px;
+}
+.btn {
+    margin: 3px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.btn a{
+    text-decoration: none;
+}
+
+
+.container{
+ /* height: 100vh; */
+ padding: 20px;
+}
+
+.about-doctor{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.doc1{
+    display: flex;
+}
+.doc1 img{
+    margin: 26px;
+    height: 310px;
+    border-radius: 50%;
+}
+
+.doc-name{
+    padding: 22px;
+    border: 2px solid black;
+    margin: 79px;
+    border-radius: 5px;
+    background-color:#bde9cc;
+}
+#footer{
+    text-align: center;
+    height: 20px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+}

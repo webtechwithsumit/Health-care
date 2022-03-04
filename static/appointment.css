@@ -1,0 +1,143 @@
+/* reset key */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* navbar */
+.navbar{
+    background-color:#30589b;
+    display:flex;
+    width: 100%;
+}
+
+            /* left box  */
+
+.left{
+    display: flex;
+    padding: 3px;
+    color: white;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+    margin-left: 8px;
+    filter: invert(100%);
+}
+.left div{
+    font-size: 19px;
+    padding: 17px 4px;
+}
+
+             /* mid box */
+.mid {
+    display: flex;
+    margin: 0px auto;
+    padding: 19px;
+}
+.mid li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.mid li a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 17px;
+}
+
+            /* right box */
+.right {
+    /* position: absolute; */
+    right: 0px;
+    top: 0px;
+    display:flex;
+    margin: 13px;
+}
+.btn {
+    margin: 3px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.btn a{
+    text-decoration: none;
+}
+
+.appointment{
+    padding: 2px 16px;
+    margin: 2px 8px;
+}
+.appointment-container{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #e7e7e7;
+}
+.container-section{
+    display: flex;
+    padding: 13px;
+    border-bottom: 2px solid #b5d1e9;
+}
+.container-section img{
+    padding: 1px;
+    height: 126px;
+    margin: 1px 55px;
+    border-radius: 50%;
+}
+
+.docdetail{
+    padding: 15px;
+}
+.docdetail span{
+    font-size: 20px;
+}
+
+.container-section1{
+    display: flex;
+    flex-direction: column;
+    padding: 9px 64px;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+.container-section1 span{
+    font-size: 20px;
+}
+
+.time-book{
+    padding: 5px;
+}
+
+.time-book span{
+    font-size: 21px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+}
+.time-book button {
+    padding: 10px 86px;
+    font-size: 20px;
+    margin-left: 488px;
+    background-color: #3cbbe7;
+    border-radius: 5px;
+    border: 1px solid;
+} 
+.time-book button:hover{
+    background-color: #a3daec;
+    cursor: pointer;
+} 
+
+
+
+
+#footer{
+    text-align: center;
+    height: 20px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+}

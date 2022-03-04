@@ -1,0 +1,67 @@
+doctype html
+html(lang="en")
+    head
+        style
+            include ../static/index.css
+            title About
+    body 
+        nav.navbar 
+            //- left box for logo 
+            div.left
+                img(src="../static/logo.png", alt="")
+                div HealthCare
+            
+            
+            //- mid box for navbar
+            div.mid
+                ul
+                    li #[a(href="/") Home ]
+                    li #[a(href="/") About]
+                    li #[a(href="/") Services ]
+                    li #[a(href="/") Appointment ]
+                    li #[a(href="/") MyReport]
+
+            //- right box for contact
+            div.right
+                div
+                    button.btn Contact Us
+                    button.btn Email Us
+    section#first
+        div.h1
+            h1 Welcome to Healthcare 
+        div.search
+            input(type="text" name="name" id="name" placeholder="Search for Doctor, Hospital, Treatment")
+            button Search
+
+
+    section#second 
+        div.trio
+            div.searchDoctor
+                input(type="text" name="" id="" placeholder="Search for Doctor or Speciality")
+            
+            div.searchLocation
+                input(type="text" name="" id="" placeholder="Search For Location")
+
+            div.bookappointment
+                button Book Appointment
+
+    section#third 
+        div.speciality
+
+
+    
+
+
+
+
+    section#fourth
+        div.covidimg
+            img(src="https://www.maxhealthcare.in/img/video-poster.jpeg", alt="")
+
+        div.covidtext
+            h1 Free Covid 19 Helpline
+            div.services
+                h2 Info 
+                h2 Home Services
+            span If you are experiencing any COVID-19 symptoms like scratchy throat, extreme tiredness, fever, body ache, cold or cough, or have tested positive, call our free COVID-19 teleconsultation helpline to consult with Max doctors.
+            button Call 8744888888

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    min-height: 85vh;
+    margin: 24px 0px;
+    /* display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    */
+} 
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid #8f8080;
+    border-radius: 5px;
+
+}
+.conbtn{
+    cursor: pointer;
+    padding: 10px 85px;
+    margin: 9px;
+    font-size: 19px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}

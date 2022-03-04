@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    title HealthCare
+    block scripts
+    block style 
+        
+    
+  body
+    nav.navbar 
+            //- left box for logo 
+            div.left
+                img(src="../static/logo.png", alt="")
+                div HealthCare
+            //- mid box for navbar
+            div.mid
+                ul
+                    li #[a(href="/") Home ]
+                    li #[a(href="/about") About]
+                    li #[a(href="/services") Services ]
+                    li #[a(href="/appointment") Appointment ]
+                    li #[a(href="/myReport") MyReport]
+            //- right box for contact
+            div.right
+                div
+                    button.btn #[a(href="/contact") Contact Us]
+                    button.btn #[a(href="/email") Email Us]
+                    
+
+    block content
+
+    footer#footer
+        | Copyrights! All rights reserved
